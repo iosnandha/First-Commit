@@ -1,0 +1,89 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - AppDynamicsAgent (43.0.4)
+  - CardIO (5.4.1)
+  - Crashlytics (3.8.4):
+    - Fabric (~> 1.6.3)
+  - Fabric (1.6.11)
+  - ICViewPager (1.5.1)
+  - JMImageCache (0.4.0)
+  - KeychainItemWrapper (1.2)
+  - React/Core (0.44.0):
+    - React/cxxreact
+    - Yoga (= 0.44.0.React)
+  - React/cxxreact (0.44.0):
+    - React/jschelpers
+  - React/jschelpers (0.44.0)
+  - React/RCTImage (0.44.0):
+    - React/Core
+    - React/RCTNetwork
+  - React/RCTNetwork (0.44.0):
+    - React/Core
+  - React/RCTText (0.44.0):
+    - React/Core
+  - React/RCTWebSocket (0.44.0):
+    - React/Core
+  - TTTAttributedLabel (2.0.0)
+  - TwitterCore (2.8.0):
+    - Fabric
+  - TwitterKit (2.8.1):
+    - TwitterCore (>= 2.8)
+  - Yoga (0.44.0.React)
+
+DEPENDENCIES:
+  - AFNetworking
+  - AppDynamicsAgent
+  - CardIO
+  - Crashlytics
+  - Fabric
+  - ICViewPager
+  - JMImageCache
+  - KeychainItemWrapper
+  - React/Core (from `../node_modules/react-native`)
+  - React/RCTImage (from `../node_modules/react-native`)
+  - React/RCTNetwork (from `../node_modules/react-native`)
+  - React/RCTText (from `../node_modules/react-native`)
+  - React/RCTWebSocket (from `../node_modules/react-native`)
+  - TTTAttributedLabel
+  - TwitterCore
+  - TwitterKit
+  - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
+
+EXTERNAL SOURCES:
+  React:
+    :path: "../node_modules/react-native"
+  Yoga:
+    :path: "../node_modules/react-native/ReactCommon/yoga"
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  AppDynamicsAgent: 410e76c691b3acd40ddcb663488844f4035c8aad
+  CardIO: 56983b39b62f495fc6dae9ad7cf875143df06443
+  Crashlytics: 79e236942ca1e7fc641df1feb9a275360a78ab6a
+  Fabric: 5911403591946b8228ab1c51d98f1d7137e863c6
+  ICViewPager: 032dc71a50fe898e185fae6112ded4bed0e0523c
+  JMImageCache: fac25eb168a25b29ac130fee6a6b17ea463c1d86
+  KeychainItemWrapper: 67a240172ed669842bc6bc13ed554dcd50469fa2
+  React: d2077cc20245ccdc8bfe1fdc002f2003318ae8d8
+  TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
+  TwitterCore: e959987be23c767004d29eb7fab8d85d8585a2e5
+  TwitterKit: 3b6044a7320340326a4098f3e37aa1dbaeb94942
+  Yoga: a92a5d8e128905bf9f29c82f870192a6e873dd98
+
+PODFILE CHECKSUM: c64fc1a172887998f3aae35975196aa06d084235
+
+COCOAPODS: 1.2.0
