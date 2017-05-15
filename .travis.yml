@@ -42,7 +42,6 @@ matrix:
         - gem install cocoapods -v '1.2.0'
         - pod install --project-directory=ios/
         - gem install xcpretty -N
-        - pod install — repo-update
       install:
         - travis_retry gem install xcpretty
         - travis_retry yarn
