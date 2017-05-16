@@ -642,6 +642,7 @@
 				DEVELOPMENT_TEAM = 6WX233N4N3;
 				INFOPLIST_FILE = BBSampleApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.britishgas.BBSampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -655,6 +656,7 @@
 				DEVELOPMENT_TEAM = 6WX233N4N3;
 				INFOPLIST_FILE = BBSampleApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.britishgas.BBSampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
