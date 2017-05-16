@@ -45,7 +45,7 @@ matrix:
         - pod setup --silent > /dev/null
         - pod repo update --silent
         - xcpretty --version
-        - xcodebuild -versio
+        - xcodebuild -version
         - xcodebuild -showsdks
       
       install:
