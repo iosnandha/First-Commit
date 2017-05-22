@@ -7,8 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03423DE769137E02AD1C1A49 /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 658AD7CD7E37855F6DC7BEA5 /* BuddyBuildSDK.framework */; };
 		58261ADE2F73D3A33D0EAF61 /* libPods-BBSampleAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 397FC4FC91554D85EC12AF92 /* libPods-BBSampleAppTests.a */; };
 		6F4CE902E4123AA82EC469B4 /* libPods-BBSampleAppUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 868B9673ABC6B79B9BD13E33 /* libPods-BBSampleAppUITests.a */; };
+		727E77F7DD4FB6DFE70921EC /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99580CAE01D945CBC7CE2344 /* CoreVideo.framework */; };
+		8E127DB52A9C33DBD36ACB1F /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95F88B9B76F3EB642F2A630D /* CoreTelephony.framework */; };
+		8E19164301D23245FB2E67F5 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 718555EEDA6B76130A4268A4 /* AssetsLibrary.framework */; };
+		9ED448C260B5272B88BFCC43 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FD7EB636B19821A7580C003 /* AVFoundation.framework */; };
+		B34188F8AD612B3FF25F3CDA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D7F797847736299C2B77D55 /* QuartzCore.framework */; };
+		B79ECEC119AB27888477A706 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFB1328635FC591B4A46DD0F /* SystemConfiguration.framework */; };
 		B87E821A084B873A1233582E /* libPods-BBSampleApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E590F27A7942392A8A9DD9 /* libPods-BBSampleApp.a */; };
 		BE46F4E91EBC8DE4008A5B59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE46F4E81EBC8DE4008A5B59 /* main.m */; };
 		BE46F4EC1EBC8DE5008A5B59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE46F4EB1EBC8DE5008A5B59 /* AppDelegate.m */; };
@@ -21,6 +28,8 @@
 		BE985EAF1EC5D05A00F4762C /* RNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE985EAE1EC5D05A00F4762C /* RNViewController.m */; };
 		BE985EC51EC5ECDD00F4762C /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = BE985EC31EC5ECDD00F4762C /* main.jsbundle */; };
 		BE985EC61EC5ECDD00F4762C /* main.jsbundle.meta in Resources */ = {isa = PBXBuildFile; fileRef = BE985EC41EC5ECDD00F4762C /* main.jsbundle.meta */; };
+		BF87196204313DEC1473AE45 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 447A17A453CF4EC0710CD6EF /* CoreText.framework */; };
+		E8BE791E968B51D092009A4E /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8491E8D5E303BA194B353D23 /* CoreMedia.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,9 +53,17 @@
 		246D6497DA83AA00752392D5 /* Pods-BBSampleAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBSampleAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BBSampleAppUITests/Pods-BBSampleAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		33EE9982E2AFCA2BE643D71C /* Pods-BBSampleAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBSampleAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BBSampleAppTests/Pods-BBSampleAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		397FC4FC91554D85EC12AF92 /* libPods-BBSampleAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BBSampleAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		447A17A453CF4EC0710CD6EF /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		4F569208746918F8C109462F /* Pods-BBSampleAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBSampleAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BBSampleAppTests/Pods-BBSampleAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		658AD7CD7E37855F6DC7BEA5 /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BuddyBuildSDK.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
+		6D7F797847736299C2B77D55 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		718555EEDA6B76130A4268A4 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		79E590F27A7942392A8A9DD9 /* libPods-BBSampleApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BBSampleApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8491E8D5E303BA194B353D23 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		868B9673ABC6B79B9BD13E33 /* libPods-BBSampleAppUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BBSampleAppUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95F88B9B76F3EB642F2A630D /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		99580CAE01D945CBC7CE2344 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		9FD7EB636B19821A7580C003 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		A34C6DD84010A311DB82C35B /* Pods-BBSampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBSampleApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-BBSampleApp/Pods-BBSampleApp.release.xcconfig"; sourceTree = "<group>"; };
 		BE46F4E41EBC8DE4008A5B59 /* BBSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BBSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE46F4E81EBC8DE4008A5B59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -69,6 +86,7 @@
 		BE985EC31EC5ECDD00F4762C /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		BE985EC41EC5ECDD00F4762C /* main.jsbundle.meta */ = {isa = PBXFileReference; lastKnownFileType = file; path = main.jsbundle.meta; sourceTree = "<group>"; };
 		C3FE0EF88C3747CE9FCF1B2B /* Pods-BBSampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBSampleApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BBSampleApp/Pods-BBSampleApp.debug.xcconfig"; sourceTree = "<group>"; };
+		DFB1328635FC591B4A46DD0F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		EA3E93E84D4E2F4B4DD028A1 /* Pods-BBSampleAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBSampleAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BBSampleAppUITests/Pods-BBSampleAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,6 +96,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				B87E821A084B873A1233582E /* libPods-BBSampleApp.a in Frameworks */,
+				03423DE769137E02AD1C1A49 /* BuddyBuildSDK.framework in Frameworks */,
+				8E19164301D23245FB2E67F5 /* AssetsLibrary.framework in Frameworks */,
+				BF87196204313DEC1473AE45 /* CoreText.framework in Frameworks */,
+				8E127DB52A9C33DBD36ACB1F /* CoreTelephony.framework in Frameworks */,
+				B79ECEC119AB27888477A706 /* SystemConfiguration.framework in Frameworks */,
+				B34188F8AD612B3FF25F3CDA /* QuartzCore.framework in Frameworks */,
+				9ED448C260B5272B88BFCC43 /* AVFoundation.framework in Frameworks */,
+				E8BE791E968B51D092009A4E /* CoreMedia.framework in Frameworks */,
+				727E77F7DD4FB6DFE70921EC /* CoreVideo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +222,15 @@
 				79E590F27A7942392A8A9DD9 /* libPods-BBSampleApp.a */,
 				397FC4FC91554D85EC12AF92 /* libPods-BBSampleAppTests.a */,
 				868B9673ABC6B79B9BD13E33 /* libPods-BBSampleAppUITests.a */,
+				658AD7CD7E37855F6DC7BEA5 /* BuddyBuildSDK.framework */,
+				718555EEDA6B76130A4268A4 /* AssetsLibrary.framework */,
+				447A17A453CF4EC0710CD6EF /* CoreText.framework */,
+				95F88B9B76F3EB642F2A630D /* CoreTelephony.framework */,
+				DFB1328635FC591B4A46DD0F /* SystemConfiguration.framework */,
+				6D7F797847736299C2B77D55 /* QuartzCore.framework */,
+				9FD7EB636B19821A7580C003 /* AVFoundation.framework */,
+				8491E8D5E303BA194B353D23 /* CoreMedia.framework */,
+				99580CAE01D945CBC7CE2344 /* CoreVideo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -640,6 +676,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6WX233N4N3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = BBSampleApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
@@ -654,6 +694,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6WX233N4N3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = BBSampleApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
